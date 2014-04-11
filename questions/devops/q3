@@ -1,0 +1,26 @@
+If we list all the natural numbers <= 20 that are multiples of 3 xor 5, we get:
+
+3, 5, 6, 9, 10, 12, 18, 20
+
+Note, 15 is not included because multiples of both 3 and 5 are excluded from
+the above series.
+
+In a language of your choice, write a program that takes a positive integer
+'N' as an argument and prints all multiples of 3 xor 5 up to (and including) N.
+
+Build (if necessary) and execute this program. You can use the following
+examples to check your work:
+
+$ ./q3 5
+3
+5
+
+$ ./q3 20
+3
+5
+6
+9
+10
+12
+18
+20

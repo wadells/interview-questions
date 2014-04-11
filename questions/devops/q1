@@ -1,0 +1,17 @@
+In a language of your choice, write a program that prints all integers from
+1 to 10 (inclusive).
+
+Build (if necessary) and execute this program. You may use the following
+example to check your work:
+
+$ ./a1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10

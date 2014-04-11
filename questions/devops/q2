@@ -1,0 +1,25 @@
+In a language of your choice, write a program that takes a single positive
+integer 'N' as a command line argument and prints all the integers from 1 to N
+(inclusive).
+
+Build (if necessary) and execute this program. You may use the following
+examples to check your work:
+
+$ ./a2 5
+1
+2
+3
+4
+5
+
+$ ./a2 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10

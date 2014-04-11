@@ -1,0 +1,21 @@
+If we list all the natural numbers <= 20 that are multiples of 3 xor 5, we get:
+
+3, 5, 6, 9, 10, 12, 18, 20
+
+Note, 15 is not included because multiples of both 3 and 5 are excluded from
+the above series.
+
+The sum of these multiples is 83.
+
+In a language of your choice, write a program that takes a postive integer
+'N' as an argument and prints the sum of all the multiples of 3 xor 5 <= N.
+
+Build (if necessary) and execute this program. You can use the following test
+cases to check your work:
+
+$ ./q4 5
+8
+$ ./q4 20
+83
+$ ./q4 50
+503
