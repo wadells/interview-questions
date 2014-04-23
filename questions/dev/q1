@@ -1,0 +1,9 @@
+The following list contains all the integers from 0 to 5 with exactly one
+duplicate:
+
+3, 1, 4, 0, 2, 3, 5
+
+Given an unordered list of length N containing all the integers from 0 to N-2
+with exactly one duplicate write a function that returns the duplicate value.
+
+With the example provided above, the function should return 3.
