@@ -1,0 +1,12 @@
+The /etc/passwd format looks like:
+
+root:x:0:0:root:/root:/bin/bash
+puppet:x:54:54:Puppet:/var/lib/puppet:/sbin/nologin
+
+In a language of your choice, write a program that reads /etc/passwd and
+prints a list of username:shell sorted by username to a different file.
+
+Using the data above, the new file would look like:
+
+puppet:/sbin/nologin
+root:/bin/bash

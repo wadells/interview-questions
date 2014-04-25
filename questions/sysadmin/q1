@@ -1,0 +1,6 @@
+The /etc/passwd format looks like:
+
+root:x:0:0:root:/root:/bin/bash
+puppet:x:54:54:Puppet:/var/lib/puppet:/sbin/nologin
+
+Describe each field (':' delimited).
