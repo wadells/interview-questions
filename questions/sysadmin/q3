@@ -1,0 +1,19 @@
+Given an apache log file with lines like the following:
+
+10.7.181.167 - - [28/Feb/2016:03:51:06 -0800] "GET /queue_info_json/ HTTP/1.1" 200 60 "https://build.west.isilon.com/BR_7_1_1/page3" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
+10.7.166.36 - - [06/Mar/2016:03:29:02 -0800] "GET /register/vmvirtbuild01.west.isilon.com/build-journaled/seattle/ HTTP/1.1" 200 99 "-" "Python-urllib/2.6"
+
+In a language of your choice, write a program that finds all the
+paths that return response code 500, counts them, and displays a list
+sorted by count. For example the ouput should look like:
+
+    314 /launcher/api/1/jobs/
+     83 /queue_info_json/
+     10 /register/qavm-rw21/test/santaclara/
+
+(spacing/padding is unimportant, but each line should include the
+endpoint and the number of times it returned response code 500 in
+the logs).
+
+A ~750M apache log to test on can be found in this directory in the
+file apache.log.
