@@ -15,5 +15,5 @@ sorted by count. For example the ouput should look like:
 endpoint and the number of times it returned response code 500 in
 the logs).
 
-A ~750M apache log to test on can be found in this directory in the
-file apache.log.
+A compressed ~750M apache log to test on can be found in this directory
+in the file apache.log.gz.

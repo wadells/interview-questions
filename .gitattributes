@@ -1,0 +1,2 @@
+questions/sysadmin/apache.log filter=lfs diff=lfs merge=lfs -text
+questions/sysadmin/apache.log.gz filter=lfs diff=lfs merge=lfs -text
