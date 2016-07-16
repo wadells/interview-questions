@@ -1,0 +1,13 @@
+lsb_release
+uname -a
+yum
+rpm -qa
+cat /etc/redhat-release
+
+################################################################################
+# This comes from one of the strongest cli user candidates I've interviewed.
+# Shows knowledge of standard tools for the job (lsb) and /etc/*-release as
+# well as more informal methods of determining info (e.g. checking package
+# managers). In general candidates waffle around with uname a bit more but that
+# may be an indication I need to clean up the wording of the question.
+################################################################################

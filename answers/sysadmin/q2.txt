@@ -1,0 +1,12 @@
+cat q2
+vim
+cat /etc/passwd | cut -d: -f1,7
+cat /etc/passwd | cut -d: -f1,7 | sort -k1
+
+################################################################################
+# This comes from one of the strongest cli user candidates I've interviewed.
+# The above is literally all they did after recieving the prompt for q2. Free
+# recall of the relevant cli tools and flags and only two attempts to get a
+# correct completed solution (everyone leaves off sorting at first, perhaps a
+# problem with the question).
+################################################################################
